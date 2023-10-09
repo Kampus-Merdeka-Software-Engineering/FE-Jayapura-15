@@ -722,13 +722,42 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 }
 
 @media (max-width : 768px) {
-    html{
+    html {
         font-size: 60%;
     }
+
+    .navbar .title {
+        margin-left: 15px;
+    }
+
+    .navbar .navigations {
+        padding-left: 150px;
+        margin: auto 50px auto 0;
+    }
+
+    .navbar .navigations li {
+        display: none;
+    }
+
+    .landing .landing-header {
+        top: 25%;
+        left: 45%;
+    }
+
+    .landing .landing-header h1 span {
+        font-size: 30px;
+    }
+
+    .landing .landing-content {
+        top: 55%;
+        left: 45%;
+    }
+
     .landing .row {
         flex-wrap: wrap;
         font-size: small;
     }
+
     .landing .landing-img img {
         display: none;
     }
