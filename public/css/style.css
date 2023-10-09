@@ -208,10 +208,11 @@ body {
     height: auto;
     background-color:white;
     border-radius: 20px;
-    margin: 2rem;
+    margin: 1.5rem;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
     padding: 5px;
     transition: all 0.25 ease-in;
+    width: 300px;
 }
 
 .fasilitas:hover {
@@ -707,6 +708,41 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
     height: 30px;
     width: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    .profile-card{
+        width: 95%;
+        height: 50%;
+    }
+    .profile-photo img{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-biodata{
+        width: 20px;
+    }
+    .profile-nama h2{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-card{
+        width: 95%;
+        height: 50%;
+    }
+    .profile-photo img{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-biodata{
+        width: 20px;
+    }
+    .profile-nama h2{
+        margin-top: 10px;
+    }
+}
+
 
 /* responsif */
 
